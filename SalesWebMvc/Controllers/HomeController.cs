@@ -25,6 +25,7 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult Privacy()
         {
+            ViewData["Message"] = "Esta é uma mensagem do Cacoh";
             return View();
         }
 
