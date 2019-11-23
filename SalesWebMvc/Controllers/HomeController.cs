@@ -13,7 +13,8 @@ namespace SalesWebMvc.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
+        // o template de rota define que o nome do controlador é a primeira rota e o nome do método é a ação
+        // neste caso seria "Home/Index" ou "Home/Privacy"
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
